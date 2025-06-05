@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Contêiner geral para limitar largura e alinhar elementos */
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #2980b9;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    margin-top: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Seção principal (Artigos) */
+main {
+    margin-top: 30px;
+}
+
+/* Estilo das notícias/artigos */
+.news-article {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.article-title {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.article-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.article-summary {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin: 15px 0;
+}
+
+.read-more {
+    display: inline-block;
+    font-size: 16px;
+    color: #2980b9;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.article-details {
+    display: none;
+    background-color: #ecf0f1;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.article-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 28px;
+    }
+
+    .article-title {
+        font-size: 22px;
+    }
+
+    .read-more {
+        font-size: 14px;
+    }
+}
